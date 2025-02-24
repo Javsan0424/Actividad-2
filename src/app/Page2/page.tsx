@@ -11,7 +11,7 @@ export default function P1() {
             <div className="flex flex-col items-center justify-center min-h-screen space-y-4">
                 <div className={`w-64 h-40 ${color} rounded-lg shadow-lg`} />
 
-                {/* Contenedor de botones con grid */}
+                
                 <div className="grid grid-cols-2 gap-4 mt-6">
                     <button onClick={() => setColor("bg-red-500")} className="bg-red-500 text-white px-6 py-2 rounded shadow w-32">Rojo</button>
                     <button onClick={() => setColor("bg-blue-500")} className="bg-blue-500 text-white px-6 py-2 rounded shadow w-32">Azul</button>
